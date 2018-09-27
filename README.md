@@ -2,7 +2,7 @@
 Challenge
 
 - Implemented in Node.js and MySQL.
-- The database implementation is a one-to-many relationship between timetabled events (i.e. room in use, room free) and rooms.
+- The database implementation is a one-to-many relationship between rooms and timetabled events (i.e. room in use, room free) .
 - Availability is looked up in the schedule table.
 - Modifiying a rooms availability modifies the current timetable event.
 - JWT tokens are used to authenticate admin API calls.

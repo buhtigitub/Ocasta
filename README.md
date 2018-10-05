@@ -1,4 +1,4 @@
-# Ocasta
+# RESTful API
 Challenge
 
 - Implemented in Node.js and MySQL.
@@ -9,5 +9,4 @@ Challenge
 - Room IDs are creation timestamps.
 - Schedule entries are unique contrained by time and room.
 - User input is escaped for security.
-- Solution doesn't implement a check for availability when booking a room, though rooms aren't really bookable through this API.
-- Admin username/password is stored on server, not looked up in DB.
+
